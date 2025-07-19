@@ -1,0 +1,40 @@
+body {
+  font-family: 'Courier New', monospace;
+  background: #fef3c7;
+  text-align: center;
+  padding: 2rem;
+}
+
+#noteInput {
+  padding: 10px;
+  width: 60%;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #facc15;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#board {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.note {
+  background: #fde68a;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 2px 2px 8px #aaa;
+}
